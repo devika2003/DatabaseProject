@@ -1,0 +1,131 @@
+.body{
+	margin:0;
+font-weight: normal;
+text-align:center;
+background:#386383;
+background-size: cover;
+height:625px;
+width: 100%;
+margin: 0; /* Remove default margin */
+padding: 0;
+	
+ }
+
+.first{
+	display:flex;
+	background:#386383;
+	gap:54%;
+	font-family: Josefin Sans;
+	justify-content:left;
+	
+}
+.btn {
+    background: #386383;
+    color: white;
+    border: none;
+    font-size: 0.969rem;
+    font-weight: bold;
+    padding: 5px 10px; /* Reduced padding */
+}
+
+
+.sep1 {
+    display: flex;         /* Use flexbox layout */
+    justify-content: flex-start; /* Align items to the start of the container */
+    align-items: center;   /* Vertically center the buttons */
+    gap: 5px;             /* Optional: control space between buttons */
+}
+
+h1{
+	margin-left:6%;
+	color:white;
+	font-family:Sans-serif;
+	font-size:37px;
+}
+#shadow{
+	text-shadow:7px 7px 6px #003049;
+}
+.first > div {
+	flex-grow: 1;
+	text-align: left;
+}
+.Enter{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	border:3px solid white;
+	margin-top:15px;
+	background:white;
+	border-radius:18px;
+	font-family:Sans-serif;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:10px;
+	box-shadow:10px 10px 4px 3px #223b51;
+}
+h2{
+	font-size:20px;
+font-style:bold;
+color:#735751;}
+#name{
+	border:2px solid white;
+	border-radius:22px;
+
+padding:11.5px;
+width:243px;
+margin-bottom:22px;
+background:#ced4da;
+color:#223b51;}
+
+#age{
+	border:2px solid white;
+	border-radius:22px;
+color:#223b51;
+padding:11.5px;
+width:70px;
+margin-bottom:22px;
+background:#ced4da;
+}
+#email{
+	border:2px solid white;
+	border-radius:22px;
+color:#223b51;
+padding:12px;
+width:350px;
+margin-bottom:22px;
+background:#ced4da;}
+#phone{
+	border:2px solid white;
+	border-radius:22px;
+color:#223b51;
+padding:12px;
+width:350px;
+margin-bottom:22px;
+background:#ced4da;}
+#adr{
+	border:2px solid white;
+	border-radius:22px;
+color:#223b51;
+padding:12px;
+width:350px;
+margin-bottom:22px;
+background:#ced4da;}
+#btn2{
+	background:#386383;
+	margin-bottom:20px;
+	margin-top:8px;
+	color:white;
+	padding-left:18px;
+	padding-right:18px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:12px;
+	border:2px solid #778da9;
+}
+.home-link{
+	margin-top:36.9px;
+}
+
+
+

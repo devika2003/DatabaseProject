@@ -1,0 +1,220 @@
+.body1{
+	margin:0;
+font-weight: normal;
+text-align:center;
+	background:#e7dfdf;
+    height: 100%;
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+	
+	
+}
+
+.mission{
+    
+	font-family:sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	width:700px;
+	font-size:17px;
+}
+.mission p{
+    
+	margin-left:auto;
+	margin-right:auto;
+	color:#343a40;
+	font-style:italic;
+	line-height:24px;
+	
+}
+.mission h2{
+	color:#386383;
+	font-size:22px;
+	font-weight:bold;
+}
+.image{
+	text-align:left;
+	font-family:Sans-serif;
+	color:#fefefe;
+	padding-bottom:7px;
+	border:3.7px solid #386383;
+	border-bottom-left-radius:58px;
+	border-bottom-right-radius:58px;
+	background:#386383;
+}
+.dogpic{
+width:125px;}
+.name{
+	margin:0;
+	font-size:11.5px;
+}
+.age{
+	margin:0;
+	font-style:italic;
+	font-size:10px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap:3.5px;
+	margin-top:3.5px;
+	text-align:center;
+}
+.firstrow{
+	display:flex;
+	justify-content:center;
+	margin-bottom:50px;
+	margin-top:32.5px;
+	gap:104px;
+	
+}
+.newest{
+margin-top:60px;
+}
+.newest h2{
+	color:#386383;
+	font-family:sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:22px;
+	font-weight:bold;
+}
+#exp{
+	background:#386383;
+	color:#fefefe;
+	padding:6px;
+	border:2px solid #778da9;
+	margin-top:0px;
+	font-size:11px;
+	font-weight:normal;
+	margin-bottom:18px;
+}
+.about{
+	font-family:sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	width:650px;
+	padding:10px;
+	color:#fefefe;
+	background:#386383;
+	border:2px solid #fefefe;
+	border-radius:13px;
+	
+}
+	
+.about h2{
+	text-align:center;
+	color:#fefefe;
+	font-family:sans-serif;
+	font-size:17.4px;
+	font-weight:bold;
+	margin-bottom:24px;
+
+}
+.about p{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	color:#fefefe;
+	line-height:23px;
+	width:560px;
+	font-size:15px;
+	
+}
+.btn1{
+    
+	margin-bottom:47px;
+}
+.header{
+	color:black;
+	display:flex;
+	height:520px;
+	gap:54%;
+	width:100%;
+	font-family: Josefin Sans;
+	justify-content:left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+    background:#386383;
+	margin-bottom:50px;
+				
+}
+
+.overlay{
+	background-image:url(C:\Users\devik\Desktop\pet\petslive\src\file.png);
+	background-size:85%;
+	background-repeat: no-repeat;
+	background-position:right;
+	background-position-y:40%;
+	background-origin:initial;
+margin-right:60px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: end;
+}
+.first1{
+	display:flex;
+	background:#386383;
+	gap:54%;
+	font-family: Josefin Sans;
+	justify-content:left;
+	}
+.btn{
+
+	background:#386383;
+	color:white;
+	border:none;
+	font-size:0.969rem;
+	font-weight:bold;
+}
+.sep{
+    
+	display:flex;
+	gap:12%;
+	flex-wrap:wrap;
+}
+h1{
+	margin-left:6%;
+	color:white;
+	font-family:Sans-serif;
+	font-size:37px;
+}
+#shadow{
+	text-shadow:7px 7px 6px #003049;
+}
+.first1 > div {
+	flex-grow: 1; /* Ensures items take up available space */
+	text-align: left;
+}
+
+.heading{
+
+	position: absolute;
+	left: 8%; /* Adjust this value to control how far from the left it should appear */
+	top: 40%; /* This centers the h1 vertically */
+	transform: translateY(-50%); /* Adjusts the vertical position to center */
+	font-family: 'Josefin Sans', sans-serif; /* Same font as the rest */
+	font-size: 5rem; /* Adjust the size as needed */
+	color: white; /* To match your design */
+	font-weight: normal;
+	text-shadow: 2px 2px 4px #223b51;
+	z-index: 1; /* Ensures the text appears above the background image */
+	text-align:left;
+	line-height:90px;
+}
+.btn-link{
+	margin-top:36.9px;
+}
+
+
+
+	
+
+
+
